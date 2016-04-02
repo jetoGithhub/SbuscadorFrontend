@@ -22,7 +22,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   * Agergamos el repositorio como un external a nuetros proyecto.
 
    ```sh
-   svn propget nombreMiProyecto/algun-directorio sub-directorio-de-los-external http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
+   svn propget svn:externals nombreMiProyecto/algun-directorio sub-directorio-de-los-external http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
    ```
    
   * Inclusión de el plugin en el header de la aplicacion
