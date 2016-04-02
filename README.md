@@ -35,7 +35,9 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
      <scritp src="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.js" type="javscript" ></script>
    </header>
    ```
+
 ###**Uso**
+
 - Inclusón de componentes visuales para realizar busquedas geograficas
 
    ```javascript
@@ -73,4 +75,4 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
       
       promise.find('Caracas',success);
    ```
-###**Optiones**
+###**Opciones**
