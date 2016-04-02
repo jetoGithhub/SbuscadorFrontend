@@ -75,4 +75,6 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
       
       promise.find('Caracas',success);
    ```
+
 ###**Opciones**
+
