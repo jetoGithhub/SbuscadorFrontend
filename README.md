@@ -7,11 +7,18 @@ SBuscador Frontend es un complemento visual desarrollado para implementar de for
 ###**Instalacion**
 
  - Para desarrollar
+ 
 
  - Para Implementar en aplicaciones
 
 ###**Uso**
+- Inclusón de componentes visuales para realizar busquedas geograficas
 
+```javascript
+ 
+ ```
+ - Instanciando los metodos para consumir el API buscador
+```javascript
+ 
+ ```
 ###**Optiones**
-
-> Written with [StackEdit](https://stackedit.io/).
