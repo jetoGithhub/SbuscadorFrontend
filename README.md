@@ -67,9 +67,10 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
       
       var promise = SBE(SBEconf).request();
       
-      promise.find('Caracas',function(result){
-                     
-                     console.log('la respuesta de la peticion',result)
-      });
+      var success = function(result){
+           console.log('la respuesta de la peticion',result)
+      }
+      
+      promise.find('Caracas',success);
    ```
 ###**Optiones**
