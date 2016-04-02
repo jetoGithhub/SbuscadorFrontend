@@ -6,10 +6,20 @@ SBuscador Frontend es un complemento visual desarrollado para implementar de for
 
  * Para desarrollar
  
- ```sh
-  svn checkout --Revision svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEForntend/
- ```
+  * Clonamos el repositorio
+
+   ```sh
+    svn checkout --Revision svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEForntend/
+   ```
+   
  * Para Implementar en aplicaciones
+ 
+  * Agergamos el repositorio como un external a nuetros proyecto.
+ 
+   ```sh
+   svn propget svn:externals my-project/some-dir
+  subdir http://svn.example.com/projects/my-project/external-dir
+   ```
 
 ###**Uso**
 - Inclusón de componentes visuales para realizar busquedas geograficas
