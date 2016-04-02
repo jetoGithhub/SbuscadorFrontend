@@ -51,7 +51,8 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
       
       SBE(SBEconf).mountComponents({map : instancia-del-mapa});
    ```
- - Instanciando los metodos para consumir el API buscador
+
+- Instanciando los metodos para consumir el API buscador
 
    ```javascript
       var SBEconf = {
