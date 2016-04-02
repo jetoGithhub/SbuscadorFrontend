@@ -1,5 +1,5 @@
 
-##**SBuscador Frontend**
+##**Buscador Frontend**
 SBuscador Frontend es un complemento visual desarrollado para implementar de forma agil un buscador de elmentos geograficos en las aplicaciones desarrolladas por el departamento de tecnologia de SIGIS 
 
 ###**Instalacion**
@@ -9,7 +9,7 @@ SBuscador Frontend es un complemento visual desarrollado para implementar de for
   * Clonamos el repositorio
 
    ```sh
-    svn checkout --Revision hombreMiProyecto/algun-directorio sub-directorio-de-los-external http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEForntend
+    svn checkout --Revision nombreMiProyecto/algun-directorio sub-directorio-de-los-external http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
    ```
 
 * Para Implementar en aplicaciones
@@ -17,18 +17,17 @@ SBuscador Frontend es un complemento visual desarrollado para implementar de for
   * Agergamos el repositorio como un external a nuetros proyecto.
 
    ```sh
-   svn propget svn:externals my-project/some-dir
-   subdir http://svn.example.com/projects/my-project/external-dir
+   svn propget nombreMiProyecto/algun-directorio sub-directorio-de-los-external http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
    ```
    
   * Inclusión de el plugin en el header de la aplicacion
    
    ```html
    <header>
-     <link type="text/css" rel="stylesheet" href="ruta-del-external-tuproyecto/SBEForntend/plugin-buscador.min.css" />
+     <link type="text/css" rel="stylesheet" href="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.css" />
      <scritp src="jquery.js?v1.9.1" type="javscript" ></script>
      <scritp src="ruta-del-external-tuproyecto/igv/igv.core.min.js" type="javscript" ></script>
-     <scritp src="ruta-del-external-tuproyecto/SBEForntend/plugin-buscador.min.js" type="javscript" ></script>
+     <scritp src="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.js" type="javscript" ></script>
    </header>
    ```
 ###**Uso**
