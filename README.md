@@ -2,6 +2,11 @@
 ##**Buscador Frontend**
 SBuscador Frontend es un complemento visual desarrollado para implementar de forma agil un buscador de elmentos geograficos en las aplicaciones desarrolladas por el departamento de tecnologia de SIGIS 
 
+###**Requerimientos**
+
+ * jquery >= 1.9.0
+ * IGV
+
 ###**Instalacion**
 
  * Para desarrollar
@@ -9,7 +14,7 @@ SBuscador Frontend es un complemento visual desarrollado para implementar de for
   * Clonamos el repositorio
 
    ```sh
-    svn checkout --Revision nombreMiProyecto/algun-directorio sub-directorio-de-los-external http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
+    svn checkout --Revision http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
    ```
 
 * Para Implementar en aplicaciones
