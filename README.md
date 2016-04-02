@@ -14,7 +14,9 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   * Clonamos el repositorio
 
    ```sh
-    svn checkout --Revision http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
+   
+   svn checkout --Revision http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
+   
    ```
 
 * Para Implementar en aplicaciones
@@ -28,12 +30,14 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   * Inclusión de el plugin en el header de la aplicacion
    
    ```html
-   <header>
-     <link type="text/css" rel="stylesheet" href="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.css" />
-     <scritp src="jquery.js?v1.9.1" type="javscript" ></script>
-     <scritp src="ruta-del-external-tuproyecto/igv/igv.core.min.js" type="javscript" ></script>
-     <scritp src="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.js" type="javscript" ></script>
-   </header>
+   
+      <header>
+        <link type="text/css" rel="stylesheet" href="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.css" />
+        <scritp src="jquery.js?v1.9.1" type="javscript" ></script>
+        <scritp src="ruta-del-external-tuproyecto/igv/igv.core.min.js" type="javscript" ></script>
+        <scritp src="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.js" type="javscript" ></script>
+      </header>
+   
    ```
 
 ###**Uso**
@@ -41,6 +45,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
 - Inclusón de componentes visuales para realizar busquedas geograficas
 
    ```javascript
+   
       var SBEconf = {
        container_id:'El-id-del-div',
        API:'http://jlara.webserver2a-local.sigis.com.ve:9090/',
@@ -52,11 +57,13 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
       }
       
       SBE(SBEconf).mountComponents({map : instancia-del-mapa});
+      
    ```
 
 - Instanciando los metodos para consumir el API buscador
 
    ```javascript
+   
       var SBEconf = {
        container_id:'El-id-del-div',
        API:'http://jlara.webserver2a-local.sigis.com.ve:9090/',
@@ -74,6 +81,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
       }
       
       promise.find('Caracas',success);
+      
    ```
 
 ###**Opciones**
