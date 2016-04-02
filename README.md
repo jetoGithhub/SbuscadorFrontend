@@ -1,6 +1,6 @@
 
-##**Buscador Frontend**
-SBuscador Frontend es un complemento visual desarrollado para implementar de forma agil un buscador de elmentos geograficos en las aplicaciones desarrolladas por el departamento de tecnologia de SIGIS 
+##**SEBuscador Frontend**
+SEBuscador Frontend es un complemento visual desarrollado para implementar de forma agil un buscador de elmentos geograficos en las aplicaciones desarrolladas por el departamento de tecnologia de SIGIS 
 
 ###**Requerimientos**
 
