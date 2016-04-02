@@ -38,11 +38,37 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
 ###**Uso**
 - Inclusón de componentes visuales para realizar busquedas geograficas
 
-```javascript
- 
- ```
+   ```javascript
+      var SBEconf = {
+       container_id:'El-id-del-div',
+       API:'http://jlara.webserver2a-local.sigis.com.ve:9090/',
+       client:{
+            grant_type:'client_credentials',
+            client_id: 'el-id-cliente',
+            client_secret: 'la-llave-secrete-del-cliente'
+       }
+      }
+      
+      SBE(SBEconf).mountComponents({map : instancia-del-mapa});
+   ```
  - Instanciando los metodos para consumir el API buscador
-```javascript
- 
- ```
+
+   ```javascript
+      var SBEconf = {
+       container_id:'El-id-del-div',
+       API:'http://jlara.webserver2a-local.sigis.com.ve:9090/',
+       client:{
+            grant_type:'client_credentials',
+            client_id: 'el-id-cliente',
+            client_secret: 'la-llave-secrete-del-cliente'
+       }
+      }
+      
+      var promise = SBE(SBEconf).request();
+      
+      promise.find('Caracas',function(result){
+                     
+                     console.log('la respuesta de la peticion',result)
+      });
+   ```
 ###**Optiones**
