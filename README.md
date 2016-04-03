@@ -2,7 +2,13 @@
 ##**SEBuscador Frontend**
 SEBuscador Frontend es un complemento visual desarrollado para implementar de forma agil un buscador de elmentos geograficos en las aplicaciones desarrolladas por el departamento de tecnologia de SIGIS 
 
-###**Requerimientos**
+###**Requerimientos en el Servidor (Para desarrolladores)**
+
+ * node js
+ * npm
+ * gulp
+
+###**Dependencias**
 
  * jquery >= 1.9.0
  * IGV
@@ -16,6 +22,23 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
    ```sh
    
    svn checkout --Revision http://svn1.sigis.com.ve/buscador/buscador-elasticsearch/SBEfrontend
+   
+   ```
+   * Instalamos los modulos node para generar documentacion y los archivos min
+   
+  ```sh
+  
+   $ cd tu-wokspace/SBEfrontend/
+   $ npm install
+   
+  ```
+  
+   * Correr tareas gulp para la documentacion y minsear los archivos
+   
+   ```
+   
+   $ cd tu-wokspace/SBEfrontend/
+   $ gulp
    
    ```
 
