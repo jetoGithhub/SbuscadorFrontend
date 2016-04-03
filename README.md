@@ -35,7 +35,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   
    * Correr tareas gulp para la documentacion y minsear los archivos
    
-   ```
+   ```sh
    
    $ cd tu-wokspace/SBEfrontend/
    $ gulp
