@@ -117,10 +117,24 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
 ###**Opciones**
 
 - SBE
-  * container_id: este atributo alamcena el identifcador del contendor donde se van a cargar los componentes visuales. por defecto el utiliza el identificador *"buscador-container"*.
-  * API: Este atributo almacena la ruta de los servicios, este valor es requerido si no lo pasa no arrancar el plugin.
-  * client:Este atributo es de tipo objeto y almacena los datos de acceso de la aplicacion, esta informacion es requerida de lo contrario no podra inicializar el plugin.
+
+  * **container_id:** este atributo alamcena el identifcador del contendor donde se van a cargar los componentes visuales. por defecto el utiliza el identificador **"buscador-container"**.
+  
+  * **API:** Este atributo almacena la ruta de los servicios, este valor es requerido si no lo pasa no arrancar el plugin.
+  
+  * **client:**Este atributo es de tipo objeto y almacena los datos de acceso de la aplicacion, esta informacion es requerida de lo contrario no podra inicializar el plugin.
   
 - mountComponents
+
+  * **map:** Este atributo almacena la instancia del mapa, esta opcion es requerida para el correcto funcionamiento del plugin
+  
+  * **path:** Este atributo almacena la ruta absoluta donde se encuentra ubicado el directorio con los archivo de imagnes y componentes igv del plugin, por defecto el plugin tomara como ruta absoluta la siguiente si usted no la carga **"external/buscador-elasticsearch/SBEfrontend/dist/"** 
+  
+  * **resultsTemplate:** Este atributo permite modificar el la estructura como se muestran los reslutados, para esto debe la estructura de las respuesta de los servicios de busquedad para indicar los datos que desea mostrar en su diseño. un ejemplo seria si usted quiere solo mostrar el nombre del elemento en lo resultados puede pasar en este atributo algo parecido a esto <p style="color:red" >{name}</p>, donde "{name}" sera remplazado por el valor de la variable name de la respuesta de la busqueda.
+ 
+  * **popupTemplate:** Este atributo al igual que el resultsTemplate permite cambiar la presentacion de la nube que se muestra al dar click sobre el punto del elemnto en el mapa, la forma de armar es parecida a la descrita en resultsTemplate
+  
+  * **size:** Este atributo permite cambniar la cantidad de resultados que se muetran por peticion
+  
 
 ###**Notas**
