@@ -65,7 +65,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
         <script src="ruta-js-de-tuproyecto/jquery.sumoselect.min.js" ></script>
         <script src="ruta-js-de-tuproyecto/jquery.auto-complete.min.js" ></script
         <scritp src="ruta-del-external-tuproyecto/igv/igv.core.min.js" type="javscript" ></script>
-        <scritp src="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.js" type="javscript" ></script>
+        <scritp src="ruta-del-external-tuproyecto/SBEfrontend/dist/js/plugin-buscador.min.js" type="javscript" ></script>
       </header>
    
    ```
