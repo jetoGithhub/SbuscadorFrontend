@@ -122,7 +122,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   
   * **API:** Este atributo almacena la ruta de los servicios, este valor es requerido si no lo pasa no arrancar el plugin.
   
-  * **client:**Este atributo es de tipo objeto y almacena los datos de acceso de la aplicacion, esta informacion es requerida de lo contrario no podra inicializar el plugin.
+  * **client:**Este atributo es de tipo objeto y almacena los datos de acceso de la aplicacion, esta informacion es requerida de lo contrario no podra inicializar el plugin. Observe los ejemplos de uso para que se familiarize con la estructura de este atributo
   
 - mountComponents
 
