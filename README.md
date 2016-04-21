@@ -86,7 +86,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
        }
       }
       
-      SBE(SBEconf).mountComponents({map : instancia-del-mapa});
+      SBE(SBEconf).mountComponents({map : instancia-del-mapa, path : 'ruta-donde-colocaste-el-SBEfrontend/dist'});
       
    ```
 
@@ -115,5 +115,12 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
    ```
 
 ###**Opciones**
+
+- SBE
+  * container_id: este atributo alamcena el identifcador del contendor donde se van a cargar los componentes visuales. por defecto el utiliza el identificador *"buscador-container"*.
+  * API: Este atributo almacena la ruta de los servicios, este valor es requerido si no lo pasa no arrancar el plugin.
+  * client:Este atributo es de tipo objeto y almacena los datos de acceso de la aplicacion, esta informacion es requerida de lo contrario no podra inicializar el plugin.
+  
+- mountComponents
 
 ###**Notas**
