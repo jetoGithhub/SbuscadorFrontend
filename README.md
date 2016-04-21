@@ -12,6 +12,8 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
 
  * jquery >= 1.9.0
  * IGV
+ * Autocomplete, https://goodies.pixabay.com/jquery/auto-complete/demo.html
+ * Multi Select, http://hemantnegi.github.io/jquery.sumoselect/
 
 ###**Instalacion**
 
@@ -55,8 +57,13 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
    ```html
    
       <header>
-        <link type="text/css" rel="stylesheet" href="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.css" />
+         <link href="ruta-css-de-tuproyecto/sumoselect.css" rel="stylesheet">
+         <link href="ruta-css-de-tuproyecto/jquery.auto-complete.css" rel="stylesheet">
+         <link type="text/css" rel="stylesheet" href="ruta-del-external-tuproyecto/SBEfrontend/dist/css/plugin-buscador.min.css" />
+         
         <scritp src="jquery.js?v1.9.1" type="javscript" ></script>
+        <script src="ruta-js-de-tuproyecto/jquery.sumoselect.min.js" ></script>
+        <script src="ruta-js-de-tuproyecto/jquery.auto-complete.min.js" ></script
         <scritp src="ruta-del-external-tuproyecto/igv/igv.core.min.js" type="javscript" ></script>
         <scritp src="ruta-del-external-tuproyecto/SBEfrontend/plugin-buscador.min.js" type="javscript" ></script>
       </header>
