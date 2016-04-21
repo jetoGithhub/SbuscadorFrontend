@@ -134,16 +134,6 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   
   ```javascript
   
-      var SBEconf = {
-       container_id:'El-id-del-div',
-       API:'http://jlara.webserver2a-local.sigis.com.ve:9090/',
-       client:{
-            grant_type:'client_credentials',
-            client_id: 'el-id-cliente',
-            client_secret: 'la-llave-secrete-del-cliente'
-       }
-      }
-      
       SBE(SBEconf).mountComponents({
                                       map : instancia-del-mapa, 
                                       path : 'ruta-donde-colocaste-el-SBEfrontend/dist',
