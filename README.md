@@ -130,8 +130,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
   
   * **path:** Este atributo almacena la ruta absoluta donde se encuentra ubicado el directorio con los archivo de imagnes y componentes igv del plugin, por defecto el plugin tomara como ruta absoluta la siguiente si usted no la carga **"external/buscador-elasticsearch/SBEfrontend/dist/"** 
   
-  * **resultsTemplate:** Este atributo permite modificar el la estructura como se muestran los reslutados, para esto debe la estructura de las respuesta de los servicios de busquedad para indicar los datos que desea mostrar en su diseño. un ejemplo seria si usted quiere solo mostrar el nombre del elemento en lo resultados puede pasar en este atributo algo parecido a esto
-  
+  * **resultsTemplate:** Este atributo permite modificar el la estructura como se muestran los reslutados, para esto debe la estructura de las respuesta de los servicios de busquedad para indicar los datos que desea mostrar en su diseño, para poder imprimir la informacion de los datos devuletos por el servicio en su diseño debe encerrar el nombre de la variable entre llaves como se muetra en el siguiente ejemplo.
   ```javascript
   
       SBE(SBEconf).mountComponents({
@@ -142,7 +141,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
        
    
    ```
-   donde "{name}" sera remplazado por el valor de la variable name de la respuesta de la busqueda.
+   
  
   * **popupTemplate:** Este atributo al igual que el resultsTemplate permite cambiar la presentacion de la nube que se muestra al dar click sobre el punto del elemnto en el mapa, la forma de armar es parecida a la descrita en resultsTemplate
   
