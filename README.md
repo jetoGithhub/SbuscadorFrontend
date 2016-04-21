@@ -141,8 +141,7 @@ SEBuscador Frontend es un complemento visual desarrollado para implementar de fo
                                    });
        
    
-   ```  
-      donde "{name}" sera remplazado por el valor de la variable name de la respuesta de la busqueda.
+   ```donde "{name}" sera remplazado por el valor de la variable name de la respuesta de la busqueda.
  
   * **popupTemplate:** Este atributo al igual que el resultsTemplate permite cambiar la presentacion de la nube que se muestra al dar click sobre el punto del elemnto en el mapa, la forma de armar es parecida a la descrita en resultsTemplate
   
